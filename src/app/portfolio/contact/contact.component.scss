@@ -1,0 +1,8 @@
+.mat-mdc-card{
+  --mdc-elevated-card-container-elevation: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+mat-card-subtitle{
+@apply
+  items-center flex gap-2
+}

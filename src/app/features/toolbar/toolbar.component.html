@@ -1,0 +1,17 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+
+  <p class="ml-2">Portfolio</p>
+  <div class="spacer"></div>
+    <div class="mr-2">
+      <button  mat-raised-button [matMenuTriggerFor]="menu">
+        Resources
+      </button>
+      <mat-menu #menu="matMenu">
+        <a href="https://angular.io/" target="_blank" mat-menu-item>Angular</a>
+        <a href="https://material.angular.io/" mat-menu-item>Angular Material</a>
+        <a href="https://tailwindcss.com/" target="_blank" mat-menu-item>Tailwindcss</a>
+      </mat-menu>
+    </div>
+
+</div>
