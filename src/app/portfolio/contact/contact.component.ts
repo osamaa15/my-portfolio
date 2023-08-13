@@ -12,7 +12,7 @@ contact= [
     icon:"email"
   },
   {
-    title:"+92 309 8091512",
+    title:"+92 313 6784434",
     icon:"phone"
   },
   {
